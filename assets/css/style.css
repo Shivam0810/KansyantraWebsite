@@ -17,7 +17,7 @@ body {
 }
 
 a {
-  color: #1dc8cd;
+  color: orange;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -52,7 +52,7 @@ h6 {
 --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #1de099, orange);
   color: #fff;
   border-radius: 4px 4px 0 0;
   right: 15px;
@@ -70,13 +70,13 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #1de099, orange);
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #1dc8cd;
+  background: orange;
   color: #fff;
 }
 
@@ -92,7 +92,7 @@ h6 {
   height: 90px;
   transition: all 0.5s;
   z-index: 997;
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, orange, orangered);
 }
 
 #header.header-transparent {
@@ -100,7 +100,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, orange, orangered);
   height: 70px;
   transition: all 0.5s;
 }
@@ -244,7 +244,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-  color: #1dc8cd;
+  color: orange;
 }
 
 .navbar .dropdown:hover > ul {
@@ -349,7 +349,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: #1dc8cd;
+  color: orange;
 }
 
 .navbar-mobile .getstarted,
@@ -384,7 +384,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover > a {
-  color: #1dc8cd;
+  color: orange;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -397,10 +397,16 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(
+  /* background: linear-gradient(
       45deg,
       rgba(29, 224, 153, 0.8),
       rgba(29, 200, 205, 0.8)
+    ),
+    url("../img/hero-bg.jpg") center top no-repeat; */
+    background: linear-gradient(
+      45deg,
+      orange,
+      orangered
     ),
     url("../img/hero-bg.jpg") center top no-repeat;
   background-size: cover;
@@ -478,7 +484,7 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  color: #1dc8cd;
+  color: orange;
   background: #fff;
 }
 
@@ -560,8 +566,8 @@ section {
   display: block;
   width: 60px;
   height: 3px;
-  background: #1dc8cd;
-  background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
+  background: orange;
+  background: linear-gradient(0deg, orange 0%, orangered 100%);
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -686,7 +692,7 @@ section {
 #about .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: #1dc8cd;
+  color: orange;
 }
 
 #about .content ul {
@@ -738,8 +744,8 @@ section {
 }
 
 #features .icon i:before {
-  background: #1dc8cd;
-  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background: orange;
+  background: linear-gradient(45deg, orange 0%, orangered 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -805,8 +811,8 @@ section {
 }
 
 #advanced-features i:before {
-  background: #1dc8cd;
-  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background: orange;
+  background: linear-gradient(45deg, orange 0%, orangered 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -883,8 +889,8 @@ section {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #1dc8cd;
-  border: 2px solid #1dc8cd;
+  background: orange;
+  border: 2px solid orange;
 }
 
 /* More Features Section
@@ -915,8 +921,8 @@ section {
 }
 
 #more-features .icon i:before {
-  background: #1dc8cd;
-  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background: orange;
+  background: linear-gradient(45deg, orange 0%, orangered 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1000,7 +1006,7 @@ section {
 
 #pricing h4 {
   font-size: 46px;
-  color: #1dc8cd;
+  color: orange;
   font-weight: 300;
 }
 
@@ -1027,7 +1033,7 @@ section {
 }
 
 #pricing ul i {
-  color: #1dc8cd;
+  color: orange;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1045,11 +1051,11 @@ section {
 }
 
 #pricing .featured {
-  border: 2px solid #1dc8cd;
+  border: 2px solid orange;
 }
 
 #pricing .featured .get-started-btn {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #1de099, orange);
 }
 
 /* Frequently Asked Questions Section
@@ -1073,7 +1079,7 @@ section {
 #faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #1dc8cd;
+  font-family: orange;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -1104,7 +1110,7 @@ section {
 }
 
 #faq .faq-list .collapsed:hover {
-  color: #1dc8cd;
+  color: orange;
 }
 
 #faq .faq-list .collapsed .icon-show {
@@ -1160,7 +1166,7 @@ section {
 }
 
 #team .member .social a:hover {
-  color: #1dc8cd;
+  color: orange;
 }
 
 #team .member .social i {
@@ -1231,7 +1237,7 @@ section {
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #1dc8cd;
+  color: orange;
 }
 
 #contact .contact-about p {
@@ -1248,14 +1254,14 @@ section {
 #contact .social-links a {
   font-size: 18px;
   background: #fff;
-  color: #1dc8cd;
+  color: orange;
   padding: 8px 0;
   margin-right: 4px;
   border-radius: 50%;
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #1dc8cd;
+  border: 1px solid orange;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1266,7 +1272,7 @@ section {
 }
 
 #contact .social-links a:hover {
-  background: #1dc8cd;
+  background: orange;
   color: #fff;
 }
 
@@ -1276,7 +1282,7 @@ section {
 
 #contact .info i {
   font-size: 32px;
-  color: #1dc8cd;
+  color: orange;
   float: left;
   line-height: 0;
 }
@@ -1333,11 +1339,11 @@ section {
 
 #contact .php-email-form input::focus,
 #contact .php-email-form textarea::focus {
-  background-color: #1dc8cd;
+  background-color: orange;
 }
 
 #contact .php-email-form button[type="submit"] {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #1de099, orange);
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
@@ -1384,5 +1390,5 @@ section {
 }
 
 #footer .footer-links a:hover {
-  color: #1dc8cd;
+  color: orange;
 }
