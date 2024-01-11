@@ -117,7 +117,7 @@ h6 {
 }
 
 #header #logo img {
-  width: 100px;
+  width: 130px;
 }
 
 #header #logo h1 a,
@@ -130,8 +130,8 @@ h6 {
     font-size: 28px;
   }
 
-  #header #logo img {
-    max-height: 40px;
+  #header {
+    height: 90px;
   }
 }
 
