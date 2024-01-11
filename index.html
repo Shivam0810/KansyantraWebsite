@@ -60,7 +60,10 @@
       <div class="container d-flex justify-content-between align-items-center">
         <div id="logo">
           <a href="index.html"
-            ><img src="assets/img/logo kasyantra.png" alt=""
+            ><img
+              src="assets/img/logo kasyantra.png"
+              alt=""
+              style="width: 130px"
           /></a>
           <!-- <h1><a href="index.html">Kansyantra</a></h1> -->
         </div>
@@ -78,31 +81,12 @@
                 >Technical Specification</a
               >
             </li>
+            <li>
+              <a class="nav-link scrollto" href="#CustomerFeedback"
+                >Customer Feedback</a
+              >
+            </li>
             <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
-            <!-- <li class="dropdown">
-              <a href="#"
-                ><span>Drop Down</span> <i class="bi bi-chevron-down"></i
-              ></a>
-              <ul>
-                <li><a href="#">Drop Down 1</a></li>
-                <li class="dropdown">
-                  <a href="#"
-                    ><span>Deep Drop Down</span>
-                    <i class="bi bi-chevron-right"></i
-                  ></a>
-                  <ul>
-                    <li><a href="#">Deep Drop Down 1</a></li>
-                    <li><a href="#">Deep Drop Down 2</a></li>
-                    <li><a href="#">Deep Drop Down 3</a></li>
-                    <li><a href="#">Deep Drop Down 4</a></li>
-                    <li><a href="#">Deep Drop Down 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Drop Down 2</a></li>
-                <li><a href="#">Drop Down 3</a></li>
-                <li><a href="#">Drop Down 4</a></li>
-              </ul>
-            </li> -->
             <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
@@ -114,39 +98,23 @@
 
     <!-- ======= Hero Section ======= -->
     <section id="hero">
+      <div className="embed-responsive">
+        <video autoplay muted loop>
+          <source
+            src="assets/video/hero-video.mp4"
+            type="video/mp4"
+            alt=""
+            data-aos="fade-in"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
       <div class="hero-text" data-aos="zoom-out">
         <h2>Welcome to Kansyantra</h2>
         <p>"Experience the Healing Power of Kansya Metal Massage"</p>
         <h6>
           "Revitalize Your Body and Mind with Traditional Ayurvedic Solutions"
         </h6>
-        <a href="#about" class="btn-get-started scrollto">About Us</a>
-      </div>
-
-      <div class="product-screens">
-        <div class="product-screen-1" data-aos="fade-up" data-aos-delay="400">
-          <img
-            src="assets/img/Kansyantra/IMG_8718.jpg"
-            alt=""
-            style="width: 300px"
-          />
-        </div>
-
-        <div class="product-screen-2" data-aos="fade-up" data-aos-delay="200">
-          <img
-            src="assets/img/Kansyantra/WhatsApp Image 2024-01-04 at 10.00.06 AM (10).jpeg"
-            alt=""
-            style="width: 300px"
-          />
-        </div>
-
-        <div class="product-screen-3" data-aos="fade-up">
-          <img
-            src="assets/img/Kansyantra/WhatsApp Image 2024-01-04 at 10.00.06 AM (13).jpeg"
-            alt=""
-            style="width: 300px"
-          />
-        </div>
       </div>
     </section>
     <!-- End Hero Section -->
@@ -185,49 +153,47 @@
               body. The marma (vital) points are massaged which gives balance to
               your doshasand is very helpful for people with insomnia, fatigue
               and cramps.
-
-              <!-- At Sharayu Machines And Healthcare, we are dedicated to providing
-              traditional health solutions through innovative technology.<br />
-              Our Bronze Thali Foot Massage Machine, including Kansyantra,
-              brings ancient Ayurvedic practices to modern life, promoting a
-              healthy way of living. -->
             </p>
           </div>
         </div>
       </section>
       <!-- End About Section -->
 
-      <!-- ======= Featuress Section ======= -->
+      <!-- ======= Features Section ======= -->
       <section id="features">
         <div class="container" data-aos="fade-up">
           <div class="row">
-            <div class="col-lg-8 offset-lg-4">
+            <div class="col-lg-12">
               <div class="section-header">
                 <h3 class="section-title">Featured Products</h3>
                 <span class="section-divider"></span>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-5 features-img">
-              <img
-                src="assets/img/product-features.png"
-                alt=""
-                data-aos="fade-right"
-              />
-            </div>
-
-            <div class="col-lg-8 col-md-7">
+            <div class="container col-12">
               <div class="row">
-                <div class="col-lg-6 col-md-6 box" data-aos="fade-up">
-                  <div class="icon"><i class="bi bi-briefcase"></i></div>
+                <div class="col-lg-4 col-md-12 box" data-aos="fade-up">
+                  <div class="icon">
+                    <img
+                      src="assets/img/Kansyantra.png"
+                      alt=""
+                      data-aos="fade-right"
+                    />
+                  </div>
                   <h4 class="title"><a href="">Kansyantra</a></h4>
                   <p class="description">
                     Discover the power of Bronze and Zinc metal for relieving
                     stress and promoting well-being.
                   </p>
                 </div>
-                <div class="col-lg-6 col-md-6 box" data-aos="fade-up">
-                  <div class="icon"><i class="bi bi-card-checklist"></i></div>
+                <div class="col-lg-4 col-md-12 box" data-aos="fade-up">
+                  <div class="icon">
+                    <img
+                      src="assets/img/hand machine.png"
+                      alt=""
+                      data-aos="fade-right"
+                    />
+                  </div>
                   <h4 class="title"><a href="">Hand Machine</a></h4>
                   <p class="description">
                     Elevate your self-care routine with this unique Ayurvedic
@@ -235,361 +201,33 @@
                   </p>
                 </div>
                 <div
-                  class="col-lg-12 col-md-12 box"
+                  class="col-lg-4 col-md-12 box"
                   data-aos="fade-up"
                   dat-aos-delay="100"
                 >
-                  <div class="icon"><i class="bi bi-binoculars"></i></div>
+                  <div class="icon">
+                    <img
+                      src="assets/img/thali.png"
+                      alt=""
+                      data-aos="fade-right"
+                    />
+                  </div>
                   <h4 class="title">
-                    <a href="#more-features">Types of Oil</a>
+                    <a href="#more-features">Thali</a>
                   </h4>
                   <p class="description">
-                    Explore our range of oils, each with its own therapeutic
-                    properties.
+                    An Ayurvedic thali is a balanced and wholesome meal
+                    consisting of a variety of nutrient-rich dishes,
+                    meticulously curated to align with Ayurvedic principles for
+                    promoting holistic well-being.
                   </p>
                 </div>
-                <!-- <div
-                  class="col-lg-6 col-md-6 box"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                >
-                  <div class="icon"><i class="bi bi-brightness-high"></i></div>
-                  <h4 class="title"><a href="">Magni Dolores</a></h4>
-                  <p class="description">
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum dinoun
-                    trade capsule.
-                  </p>
-                </div> -->
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- End Featuress Section -->
-
-      <!-- ======= Advanced Featuress Section ======= -->
-      <!-- <section id="advanced-features">
-        <div class="features-row section-bg" data-aos="fade-up">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <img
-                  class="advanced-feature-img-right wow fadeInRight"
-                  src="assets/img/advanced-feature-1.jpg"
-                  alt=""
-                />
-                <div>
-                  <h2>
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse
-                  </h2>
-                  <h3>
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam.
-                  </p>
-                  <p>
-                    Quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea commodo consequat. Duis aute irure dolor in reprehenderit
-                    in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident,
-                    sunt in culpa qui officia deserunt mollit anim id est
-                    laborum.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="features-row" data-aos="fade-up">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <img
-                  class="advanced-feature-img-left"
-                  src="assets/img/advanced-feature-2.jpg"
-                  alt=""
-                />
-                <div>
-                  <h2>
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse
-                  </h2>
-                  <i class="bi bi-calendar4-week"></i>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam.
-                  </p>
-                  <i class="bi bi-bar-chart"></i>
-                  <p>
-                    Quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea commodo consequat. Duis aute irure dolor in reprehenderit
-                    in voluptate velit esse cillum.
-                  </p>
-                  <i class="bi bi-brightness-high"></i>
-                  <p>
-                    Quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea commodo consequat. Duis aute irure dolor in reprehenderit
-                    in voluptate velit esse cillum.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="features-row section-bg" data-aos="fade-up">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <img
-                  class="advanced-feature-img-right wow fadeInRight"
-                  src="assets/img/advanced-feature-3.jpg"
-                  alt=""
-                />
-                <div>
-                  <h2>
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse
-                  </h2>
-                  <h3>
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam
-                  </p>
-                  <i class="bi bi-binoculars"></i>
-                  <p>
-                    Quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea commodo consequat. Duis aute irure dolor in reprehenderit
-                    in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident,
-                    sunt in culpa qui officia deserunt mollit anim id est
-                    laborum.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
-      <!-- End Advanced Featuress Section -->
-
-      <!-- ======= Call To Action Section ======= -->
-      <!-- <section id="call-to-action">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-9 text-center text-lg-start">
-              <h3 class="cta-title">Call To Action</h3>
-              <p class="cta-text">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
-              </p>
-            </div>
-            <div class="col-lg-3 cta-btn-container text-center">
-              <a class="cta-btn align-middle" href="#">Call To Action</a>
-            </div>
-          </div>
-        </div>
-      </section> -->
-      <!-- End Call To Action Section -->
-
-      <!-- ======= More Features Section ======= -->
-      <section id="more-features" class="section-bg">
-        <div class="container" data-aos="fade-up">
-          <div class="section-header">
-            <h3 class="section-title">Types Of Oil</h3>
-            <span class="section-divider"></span>
-            <p class="section-description">
-              <!-- Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque -->
-            </p>
-          </div>
-
-          <div class="row gy-4">
-            <div class="col-lg-6">
-              <div class="box">
-                <div class="icon"><i class="bi bi-briefcase"></i></div>
-                <h4 class="title"><a href="">SWEET ALMOND OIL</a></h4>
-                <p class="description">
-                  Sweet almondisoneof the most popular massage oils, and most
-                  masseuseswill carry a bottle or two of this pale yellowoil
-                  withthem.It has a pleasantly mild scent, and a nice
-                  textureforsmooth gliding massage motions. It’s also alight oil
-                  thatwon’t require frequent application. Also non-allergenic,
-                  sweet almondoil isagreat all purpose choice of massage oil, in
-                  terms of bothbenefits and price. It’s rich in minerals
-                  andvitaminslikevitamin E, monounsaturated fatty acids,
-                  proteins, potassium, and zinc. Skin loves this
-                  nutritiouslybeneficial hypoallergenic oil! It’s also a great
-                  baseingredient if you’re looking to add a fewdropsof essential
-                  oils.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-6">
-              <div class="box">
-                <div class="icon"><i class="bi bi-card-checklist"></i></div>
-                <h4 class="title"><a href="">COCONUT OIL</a></h4>
-                <p class="description">
-                  You can choose tobuycoconut oil in its pure or fractionated
-                  forms. The latter isalighter,less greasy version of the thick
-                  white pasteyoumayseefor sale in jars in your supermarket. It’s
-                  madethiswayby removing the long-chain triglycerides. Regular
-                  coconut oil also works, you just need to warmit upinyour hands
-                  a little bit first. Many masseuses love coconut oil asit
-                  doesn’tstain sheets or towels like some other oils. It
-                  hasadelicious fragrance and is also easily absorbedontheskin
-                  for a supple, freshly moisturised feeling. It’sagreatchoice
-                  for people with skin conditions like acneor sunburn as it
-                  won’t clog pores.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-6">
-              <div class="box">
-                <div class="icon"><i class="bi bi-bar-chart"></i></div>
-                <h4 class="title"><a href="">GRAPESEED OIL</a></h4>
-                <p class="description">
-                  Grapeseed oil leavestheskin feeling glossy and soft. It has
-                  many nutritional benefitsfor the skin thanks to its high
-                  content of linoleicacid, oneof the essential fatty acids.
-                  Grapeseed is thecarrieroil of choice for many people who
-                  prepare their ownoil fusions. Not only is it basically
-                  fragrance-free, but it alsoabsorbs very well and can help to
-                  transfer thebenefitsofessential oils through the skin with
-                  ease. Whilealittlepricier than many other oils, there is a
-                  distinct silkyfeeling after a grapeseed oil massage. It’s
-                  excellent forundiluted use or for creating a variety of
-                  therapeuticoils.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-6">
-              <div class="box">
-                <div class="icon"><i class="bi bi-binoculars"></i></div>
-                <h4 class="title"><a href="">JOJOBA OIL</a></h4>
-                <p class="description">
-                  This is another great massageoil for people with sensitive
-                  skin. Jojoba oil is closeinmakeup to the body’s own natural
-                  sebum, andsoit doesn’t exacerbate acne and other skin
-                  conditions. Jojoba oil also has antibacterial properties that
-                  canhelp reduce redness and rashes. The oil is so light and
-                  silky that it is quicklyabsorbed into the skin. This is
-                  beneficial if you’relookingto add essential oils or herbs to
-                  your oil, but it doesalsomean that you’ll have to reapply this
-                  slightly pricier option a little more often than others.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-6">
-              <div class="box">
-                <div class="icon"><i class="bi bi-binoculars"></i></div>
-                <h4 class="title"><a href="">SESAME OIL</a></h4>
-                <p class="description">
-                  This natural oil has beenusedfor centuries in Ayurvedic
-                  medicine. Thought tostrengthenthe body’s structure, the oil
-                  traditionally is massagedintothe skin after being warmed.
-                  According to Ayurveda, sesame oil is used for nourishing and
-                  detoxifyingthebody through the skin. You can also
-                  prepareamixof grated ginger infused gently into warmed
-                  sesameoil asa natural remedy for rashes and bug bites. While
-                  the medicinal benefits of sesameoil massage are strong, it
-                  does have quite a heavyscent that may not appeal to all
-                  people. Most peopletendtoprefer more subtle or flowery scents
-                  in their massageoil over the nutty fragrance of sesame oil.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-6">
-              <div class="box">
-                <div class="icon"><i class="bi bi-binoculars"></i></div>
-                <h4 class="title"><a href="">APRICOT KERNEL OIL</a></h4>
-                <p class="description">
-                  Also occasionally sold as prunis armeniaca seed fixed oil,
-                  this isanotherpopular option amongst masseurs. Like sweet
-                  almondoil, apricot kernel oil has a pale yellowcolour, light
-                  texture, and sweet fragrance. What sets apricot oil apart is
-                  its highlist of benefits for the skin. It is extremely rich in
-                  vitaminE, A,and essential fatty acids. It may be a little
-                  moreexpensive than popular oils such as sweet almond, butthe
-                  high content of vitamins will also give it alongshelflife.
-                  Apricot kernel oil is also a great alternativetoalmond oil for
-                  those with nut allergies.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-6">
-              <div class="box">
-                <div class="icon"><i class="bi bi-binoculars"></i></div>
-                <h4 class="title"><a href="">AVOCADO OIL</a></h4>
-                <p class="description">
-                  This rich oil has a host of benefits for the skin but can be
-                  quite intense in texture. Madefrom pressed avocados and deep
-                  green incolour, thisheavy oil is packed full of vitamins A and
-                  D, aswell aslecithin, potassium, and chlorophyll. It canoffer
-                  healingbenefits that combat both bacteria and signsof ageing.
-                  It’s about double the price of your standardsweet almond oil,
-                  which is why you often seeit usedmixed with a lighter base
-                  oil. This also combatsthe greasiness of avocado oil and makes
-                  it moresuitableforpeople who are prone to breakouts.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End More Features Section -->
-
-      <!-- ======= Clients Section ======= -->
-      <!-- <section id="clients">
-        <div class="container" data-aos="fade-up">
-          <div class="row">
-            <div class="col-md-2">
-              <img src="assets/img/clients/client-1.png" alt="" />
-            </div>
-
-            <div class="col-md-2">
-              <img src="assets/img/clients/client-2.png" alt="" />
-            </div>
-
-            <div class="col-md-2">
-              <img src="assets/img/clients/client-3.png" alt="" />
-            </div>
-
-            <div class="col-md-2">
-              <img src="assets/img/clients/client-4.png" alt="" />
-            </div>
-
-            <div class="col-md-2">
-              <img src="assets/img/clients/client-5.png" alt="" />
-            </div>
-
-            <div class="col-md-2">
-              <img src="assets/img/clients/client-6.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </section> -->
-      <!-- End Clients Section -->
+      <!-- End Features Section -->
 
       <!-- ======= Pricing Section ======= -->
       <section id="pricing" class="section-bg">
@@ -597,14 +235,10 @@
           <div class="section-header">
             <h3 class="section-title">Our Strategies</h3>
             <span class="section-divider"></span>
-            <!-- <p class="section-description">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque
-            </p> -->
           </div>
 
           <div class="row">
-            <p>1. Franchise Strategy:</p>
+            <h1>Franchise Strategy</h1>
             <div class="col-lg-6 col-md-6">
               <div class="box">
                 <h3>Package 1</h3>
@@ -719,156 +353,207 @@
                 </table>
               </div>
             </div>
-
-            <!-- <div class="col-lg-6 col-md-6">
-              <div class="box">
-                <h3>Developer</h3>
-                <h4><sup>$</sup>49<span> month</span></h4>
-                <ul>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Quam adipiscing vitae
-                    proin
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Nec feugiat nisl pretium
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Nulla at volutpat diam
-                    uteera
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Pharetra massa massa
-                    ultricies
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Massa ultricies mi quis
-                    hendrerit
-                  </li>
-                </ul>
-                <a href="#" class="get-started-btn">Get Started</a>
-              </div>
-            </div> -->
-            <!-- <div class="col-lg-4 col-md-6">
-              <div class="box featured">
-                <h3>Business</h3>
-                <h4><sup>$</sup>29<span> month</span></h4>
-                <ul>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Quam adipiscing vitae
-                    proin
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Nec feugiat nisl pretium
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Nulla at volutpat diam
-                    uteera
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Pharetra massa massa
-                    ultricies
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Massa ultricies mi quis
-                    hendrerit
-                  </li>
-                </ul>
-                <a href="#" class="get-started-btn">Get Started</a>
-              </div>
-            </div> -->
-          </div>
-
-          <div class="row">
-            <p>2. EMI Strategy:</p>
-            <div class="col-lg-4 col-md-6">
-              <div class="box">
-                <h3>1</h3>
-                <p>
-                  We will give you a machine and you will be charged Rs3000 as
-                  every month, for 12 months. ( ONLY FOR RETAILERS ).
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-              <div class="box">
-                <h3>2</h3>
-                <p>
-                  We will give you a machine and you will be charged Rs10000 as
-                  every month, for 12 months. ( ONLY FOR FRANCHISE PKG 1 ).
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-              <div class="box">
-                <h3>3</h3>
-                <p>
-                  We will give you a machine and you will be charged Rs15000 as
-                  every month, for 12 months.( ONLY FOR FRANCHISE PKG 2 ).
-                </p>
-              </div>
-            </div>
-            <!-- <div class="col-lg-6 col-md-6">
-              <div class="box">
-                <h3>Developer</h3>
-                <h4><sup>$</sup>49<span> month</span></h4>
-                <ul>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Quam adipiscing vitae
-                    proin
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Nec feugiat nisl pretium
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Nulla at volutpat diam
-                    uteera
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Pharetra massa massa
-                    ultricies
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Massa ultricies mi quis
-                    hendrerit
-                  </li>
-                </ul>
-                <a href="#" class="get-started-btn">Get Started</a>
-              </div>
-            </div> -->
-            <!-- <div class="col-lg-4 col-md-6">
-              <div class="box featured">
-                <h3>Business</h3>
-                <h4><sup>$</sup>29<span> month</span></h4>
-                <ul>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Quam adipiscing vitae
-                    proin
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Nec feugiat nisl pretium
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Nulla at volutpat diam
-                    uteera
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Pharetra massa massa
-                    ultricies
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Massa ultricies mi quis
-                    hendrerit
-                  </li>
-                </ul>
-                <a href="#" class="get-started-btn">Get Started</a>
-              </div>
-            </div> -->
           </div>
         </div>
       </section>
       <!-- End Pricing Section -->
+
+      <!-- ======= Team Section ======= -->
+      <section id="team" class="section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h3 class="section-title">Technical Specification</h3>
+            <span class="section-divider"></span>
+            <p class="section-description"></p>
+          </div>
+          <div class="member row">
+            <div class="col-lg-4 col-md-6">
+              <div class="box">
+                <h3>Economy</h3>
+                <table class="table">
+                  <tr>
+                    <td>Thali Dimensions</td>
+                    <td>14"</td>
+                  </tr>
+                  <tr>
+                    <td>Watt</td>
+                    <td>90 W</td>
+                  </tr>
+                  <tr>
+                    <td>Weight</td>
+                    <td>15 Kg</td>
+                  </tr>
+                  <tr>
+                    <td>Thali Motion</td>
+                    <td>Forward</td>
+                  </tr>
+                  <tr>
+                    <td>Roller</td>
+                    <td><i class="bi bi-check-circle"></i></td>
+                  </tr>
+                  <tr>
+                    <td>Rest Foot</td>
+                    <td>With Foam</td>
+                  </tr>
+                  <tr>
+                    <td>Acupressure Point</td>
+                    <td><i class="bi bi-ban"></i></td>
+                  </tr>
+                  <tr>
+                    <td>Counter</td>
+                    <td><i class="bi bi-ban"></i></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="box">
+                <h3>Standard</h3>
+                <table class="table">
+                  <tr>
+                    <td>Thali Dimensions</td>
+                    <td>16"</td>
+                  </tr>
+                  <tr>
+                    <td>Watt</td>
+                    <td>90 W</td>
+                  </tr>
+                  <tr>
+                    <td>Weight</td>
+                    <td>21 Kg</td>
+                  </tr>
+                  <tr>
+                    <td>Thali Motion</td>
+                    <td>Forward / Reverse</td>
+                  </tr>
+                  <tr>
+                    <td>Roller</td>
+                    <td><i class="bi bi-ban"></i></td>
+                  </tr>
+                  <tr>
+                    <td>Rest Foot</td>
+                    <td>With Foam</td>
+                  </tr>
+                  <tr>
+                    <td>Acupressure Point</td>
+                    <td>16</td>
+                  </tr>
+                  <tr>
+                    <td>Counter</td>
+                    <td><i class="bi bi-ban"></i></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="box">
+                <h3>Premium</h3>
+                <table class="table">
+                  <tr>
+                    <td>Thali Dimensions</td>
+                    <td>16"</td>
+                  </tr>
+                  <tr>
+                    <td>Watt</td>
+                    <td>90 W</td>
+                  </tr>
+                  <tr>
+                    <td>Weight</td>
+                    <td>21 Kg</td>
+                  </tr>
+                  <tr>
+                    <td>Thali Motion</td>
+                    <td>Forward / Reverse</td>
+                  </tr>
+                  <tr>
+                    <td>Roller</td>
+                    <td><i class="bi bi-ban"></i></td>
+                  </tr>
+                  <tr>
+                    <td>Rest Foot</td>
+                    <td>With Foam</td>
+                  </tr>
+                  <tr>
+                    <td>Acupressure Point</td>
+                    <td>24 / Customize</td>
+                  </tr>
+                  <tr>
+                    <td>Counter</td>
+                    <td><i class="bi bi-check-circle"></i></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Team Section -->
+
+      <!-- ======= Customer Feedback Section ======= -->
+      <section id="CustomerFeedback" class="section-bg">
+        <div class="container-fluid" data-aos="fade-up">
+          <div class="section-header">
+            <h3 class="section-title">Customer Feedback</h3>
+            <span class="section-divider"></span>
+            <div class="row align-content-center">
+              <div class="col-lg-6 col-md-12">
+                <div className="embed-responsive">
+                  <video controls>
+                    <source
+                      src="assets/video/Customer Feedback 1.mp4"
+                      type="video/mp4"
+                      alt=""
+                      data-aos="fade-in"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div className="embed-responsive">
+                  <video controls>
+                    <source
+                      src="assets/video/Customer Feedback 2.mp4"
+                      type="video/mp4"
+                      alt=""
+                      data-aos="fade-in"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div className="embed-responsive">
+                  <video controls>
+                    <source
+                      src="assets/video/Customer Feedback 3.mp4"
+                      type="video/mp4"
+                      alt=""
+                      data-aos="fade-in"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div className="embed-responsive">
+                  <video controls>
+                    <source
+                      src="assets/video/Customer Feedback 4.mp4"
+                      type="video/mp4"
+                      alt=""
+                      data-aos="fade-in"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End CustomerFeedback Section -->
 
       <!-- ======= Frequently Asked Questions Section ======= -->
       <section id="faq">
@@ -876,10 +561,7 @@
           <div class="section-header">
             <h3 class="section-title">Frequently Asked Questions</h3>
             <span class="section-divider"></span>
-            <p class="section-description">
-              <!-- Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque -->
-            </p>
+            <p class="section-description"></p>
           </div>
 
           <ul class="faq-list">
@@ -913,8 +595,6 @@
                 ><i class="bi bi-chevron-up icon-close"></i>
               </div>
               <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-                <!-- <p> -->
-
                 <ul class="description">
                   <li>
                     <i class="bi bi-check-circle"></i>Help to Relieve Eyestrain
@@ -944,7 +624,6 @@
                     & roughness of skin.
                   </li>
                 </ul>
-                <!-- </p> -->
               </div>
             </li>
 
@@ -979,8 +658,6 @@
                 ><i class="bi bi-chevron-up icon-close"></i>
               </div>
               <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-                <!-- <p> -->
-
                 <ul>
                   <li>Help to Relieve Eyestrain & Tired Eyes.</li>
                   <li>Reduces Stress, Depression & Migraine.</li>
@@ -994,7 +671,6 @@
                     nourishes, prevents and cures dryness&roughness of skin) .
                   </li>
                 </ul>
-                <!-- </p> -->
               </div>
             </li>
 
@@ -1009,203 +685,39 @@
               </div>
               <div id="faq5" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  ∙ The use of special oils like ghee, coconut oil, andsesame
-                  oil in Ayurvedic treatments is believedtohave numerous
-                  benefits for the body. Theseoilsareknown for their nourishing
-                  properties andcanprovide relief from various ailments.
-                  Inadditiontotheir healing properties, the massage
-                  techniquesused in this treatment are designed
-                  tostimulatecirculation and promote relaxation. <br />∙ If
-                  you're someone who spends a lot of timeonyourfeet or suffers
-                  from leg fatigue, this massagecouldbe a great way to unwind
-                  and rejuvenate. Whetheryou're looking for a quick pick-me-up
-                  or alongertreatment, incorporating Ayurvedic massageintoyour
+                  ∙ The use of special oils like ghee, coconut oil, and sesame
+                  oil in Ayurvedic treatments is believed to have numerous
+                  benefits for the body. These oils are known for their
+                  nourishing properties and can provide relief from various
+                  ailments. In addition to their healing properties, the massage
+                  techniques used in this treatment are designed to stimulate
+                  circulation and promote relaxation. <br />∙ If you're someone
+                  who spends a lot of time on your feet or suffers from leg
+                  fatigue, this massage could be a great way to unwind and
+                  rejuvenate. Whether you're looking for a quick pick-me-up or a
+                  longer treatment, incorporating Ayurvedic massage into your
                   self-care routine could be a game-changer. <br />∙ In just 10
-                  minutes, this unique treatment canhelptosoothe tired muscles,
-                  improve circulation, andleave you feeling refreshed and
-                  invigorated. Sowhynotgive it a try and experience the benefits
-                  for yourself? <br />∙ A wonderful ancient Indian saying Foot
-                  massageiscalled Padabhyanga, and it has a very special
-                  placewithin the Ayurvedic tradition. It is commonlypracticed
-                  as a daily ritual, especially beforeretiringat night.
-                  Padabhyanga includes massageof thefeet.Feet are very important
-                  part in our body, asmanynerves from many organs terminate
-                  inthefeet. Somassage helps to strengthen these
-                  nervesandrestores health to many parts of the body. Thevital
-                  points are massaged which gives balancetoyourdoshas and is
-                  very helpful for people withinsomnia,fatigue and cramps.
+                  minutes, this unique treatment can help to soothe tired
+                  muscles, improve circulation, and leave you feeling refreshed
+                  and invigorated. So why not give it a try and experience the
+                  benefits for yourself? <br />∙ A wonderful ancient Indian
+                  saying Foot massage is called Padabhyanga, and it has a very
+                  special place within the Ayurvedic tradition. It is commonly
+                  practiced as a daily ritual, especially before retiring at
+                  night. Padabhyanga includes massage of the feet.Feet are very
+                  important part in our body, as many nerves from many organs
+                  terminate in the feet. So massage helps to strengthen these
+                  nerves and restores health to many parts of the body. The
+                  vital points are massaged which gives balance to your dosh as
+                  and is very helpful for people with insomnia,fatigue and
+                  cramps.
                 </p>
               </div>
             </li>
-
-            <!-- <li>
-              <div
-                data-bs-toggle="collapse"
-                href="#faq6"
-                class="collapsed question"
-              >
-                Tortor vitae purus faucibus ornare. Varius vel pharetra vel
-                turpis nunc eget lorem dolor?
-                <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
-              </div>
-              <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris
-                  vitae ultricies leo integer malesuada nunc vel. Tincidunt eget
-                  nullam non nisi est sit amet. Turpis nunc eget lorem dolor
-                  sed. Ut venenatis tellus in metus vulputate eu scelerisque.
-                  Pellentesque diam volutpat commodo sed egestas egestas
-                  fringilla phasellus faucibus. Nibh tellus molestie nunc non
-                  blandit massa enim nec.
-                </p>
-              </div>
-            </li> -->
           </ul>
         </div>
       </section>
       <!-- End Frequently Asked Questions Section -->
-
-      <!-- ======= Team Section ======= -->
-      <section id="team" class="section-bg">
-        <div class="container" data-aos="fade-up">
-          <div class="section-header">
-            <h3 class="section-title">Technical Specification</h3>
-            <span class="section-divider"></span>
-            <p class="section-description">
-              <!-- Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque -->
-            </p>
-          </div>
-          <table class="table">
-            <thead>
-              <tr>
-                <td></td>
-                <td>Economy</td>
-                <td>Standard</td>
-                <td>Premium</td>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Thali Dimentions</td>
-                <td>14"</td>
-                <td>16"</td>
-                <td>16"</td>
-              </tr>
-              <tr>
-                <td>Watt</td>
-                <td>90 W</td>
-                <td>90 W</td>
-                <td>90 W</td>
-              </tr>
-              <tr>
-                <td>Weight</td>
-                <td>15 Kg</td>
-                <td>21 Kg</td>
-                <td>21 Kg</td>
-              </tr>
-              <tr>
-                <td>Thali Motion</td>
-                <td>Forward</td>
-                <td>Forward/Reverse</td>
-                <td>Forward/Reverse</td>
-              </tr>
-              <tr>
-                <td>Roller</td>
-                <td><i class="bi bi-check-circle"></i></td>
-                <td><i class="bi bi-ban"></i></td>
-                <td><i class="bi bi-ban"></i></td>
-              </tr>
-              <tr>
-                <td>Rest Foot</td>
-                <td>With Foam</td>
-                <td>With Foam</td>
-                <td>With Foam</td>
-              </tr>
-              <tr>
-                <td>Accupressure Point</td>
-                <td><i class="bi bi-ban"></i></td>
-                <td>16</td>
-                <td>24/Customize</td>
-              </tr>
-              <tr>
-                <td>Counter</td>
-                <td><i class="bi bi-ban"></i></td>
-                <td><i class="bi bi-ban"></i></td>
-                <td><i class="bi bi-check-circle"></i></td>
-              </tr>
-            </tbody>
-            <tr></tr>
-          </table>
-          <!-- <div class="row">
-            <div class="col-lg-3 col-md-6">
-              <div class="member">
-                <div class="pic">
-                  <img src="assets/img/team/team-1.jpg" alt="" />
-                </div>
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-              <div class="member">
-                <div class="pic">
-                  <img src="assets/img/team/team-2.jpg" alt="" />
-                </div>
-                <h4>Sarah Jhinson</h4>
-                <span>Product Manager</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-              <div class="member">
-                <div class="pic">
-                  <img src="assets/img/team/team-3.jpg" alt="" />
-                </div>
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-              <div class="member">
-                <div class="pic">
-                  <img src="assets/img/team/team-4.jpg" alt="" />
-                </div>
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        </div>
-      </section>
-      <!-- End Team Section -->
 
       <!-- ======= Gallery Section ======= -->
       <section id="gallery">
@@ -1213,10 +725,7 @@
           <div class="section-header">
             <h3 class="section-title">Gallery</h3>
             <span class="section-divider"></span>
-            <p class="section-description">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque
-            </p>
+            <p class="section-description"></p>
           </div>
 
           <div class="row g-0">
@@ -1426,17 +935,22 @@
     <footer id="footer">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 text-lg-start text-center">
+          <div class="col-lg-3 text-lg-start text-center">
             <div class="copyright">
               &copy; Copyright <strong>Kansyantra</strong>.
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-9">
             <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
               <a href="#intro" class="scrollto">Home</a>
               <a href="#about" class="scrollto">About</a>
-              <!-- <a href="#">Privacy Policy</a>
-              <a href="#">Terms of Use</a> -->
+              <a href="#hero">Home</a>
+              <a href="#about">About</a>
+              <a href="#features">Features</a>
+              <a href="#pricing">Our Strategies</a>
+              <a href="#team">Technical Specification</a>
+              <a href="#CustomerFeedback">Customer Feedback</a>
+              <a href="#gallery">Gallery</a>
             </nav>
           </div>
         </div>
